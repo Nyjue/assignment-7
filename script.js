@@ -1,7 +1,20 @@
 console.log("Hello World!");
 // 1. Create an array called favoriteFoods with at least 6 foods you love.
+let team = "Sky";
+let jersey = 88;
+let hasWonChampionship = false;
+let stadiumLocation = null;
+let nextGame;
 
+let player = {
+  name: "Kahleah Copper",
+  position: "Guard",
+  pointsPerGame: 18.7
+};
 
+console.log(player.name); // Kahleah Copper
+player.pointsPerGame = 19.2;
+console.log(player.pointsPerGame); // 19.2
 
 // 2. Loop through the list and print: "One of my favorite foods is ______."
 
