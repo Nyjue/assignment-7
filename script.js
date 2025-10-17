@@ -3,6 +3,10 @@ console.log("Welcome to Assignment 7!");
 let favoriteFoods = ["Wings", "fries", "pears", "burgers", "chicken sandwhich", "tacos"];
 console.log(favoriteFoods);
 favoriteFoods.push("pizza");
+
+let pizza = favoriteFoods.pop();
+;
+console.log(favoriteFoods);
 // 2. Loop through the list and print: "One of my favorite foods is ______."
 
 
